@@ -1,0 +1,12 @@
+read_verilog design.sv
+
+hierarchy -top ripple_carry_adder
+
+proc
+opt
+techmap
+opt
+
+tee -o synthesis_report.txt stat
+
+write_verilog -noattr synthesized_rca.v

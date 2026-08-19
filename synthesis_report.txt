@@ -1,0 +1,46 @@
+
+7. Printing statistics.
+
+=== full_adder ===
+
+   Number of wires:                 10
+   Number of wire bits:             10
+   Number of public wires:           5
+   Number of public wire bits:       5
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  7
+     $_AND_                          3
+     $_OR_                           2
+     $_XOR_                          2
+
+=== ripple_carry_adder ===
+
+   Number of wires:                  6
+   Number of wire bits:             34
+   Number of public wires:           6
+   Number of public wire bits:      34
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  8
+     full_adder                      8
+
+=== design hierarchy ===
+
+   ripple_carry_adder                1
+     full_adder                      8
+
+   Number of wires:                 86
+   Number of wire bits:            114
+   Number of public wires:          46
+   Number of public wire bits:      74
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 56
+     $_AND_                         24
+     $_OR_                          16
+     $_XOR_                         16
+
