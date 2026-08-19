@@ -46,3 +46,15 @@ B[1] ──►│     FA1     │──► Sum[1]
 A[7] ──►│ Full Adder  │──► Cout
 B[7] ──►│     FA7     │──► Sum[7]
         └─────────────┘
+
+## Simulation Result
+
+The 8-bit Ripple Carry Adder was functionally verified using Icarus Verilog and EPWave.
+
+![EPWave Simulation](simulation-output-epwave.png)
+
+## Synthesis Result
+
+RTL synthesis was performed using Yosys. The synthesized design contains 8 Full Adder blocks and 56 logic cells at the flattened gate level.
+
+![Yosys Synthesis](synthesis-output-yosys.png)
