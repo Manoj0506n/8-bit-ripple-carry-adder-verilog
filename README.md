@@ -61,4 +61,4 @@ RTL synthesis was performed using Yosys. The synthesized design contains 8 Full 
 
 ## Conclusion
 
-The project successfully demonstrates the RTL design, simulation, verification, and synthesis of an 8-bit Ripple Carry Adder.
+The project successfully demonstrates the RTL design, simulation, verification, and synthesis of an 8-bit Ripple Carry Adder using Verilog HDL. The design was successfully verified through simulation and synthesized into a gate-level representation using Yosys.
